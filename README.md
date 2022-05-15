@@ -20,3 +20,5 @@ To run the web servers after a successful build, execute the following command f
 ```sh
 docker-compose up 
 ```
+
+To access the webservers, go to `http://localhost:8000` or `http://localhost:8001`.  
