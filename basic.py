@@ -74,6 +74,6 @@ if success:
     print('home page ok.')
 else:
     print('home page failed.')
-    # send_status_email('failed')
+    send_status_email('failed')
 
  

@@ -6,8 +6,6 @@ services:
       dockerfile: Dockerfile 
     ports:
       - "8000:80"
-    # volumes:
-    #   - ./index.html:/usr/share/nginx/html/index.html
   
   nginx_2:
     build:
@@ -15,5 +13,3 @@ services:
       dockerfile: Dockerfile 
     ports:
       - "8001:80"
-    # volumes:
-    #   - ./index.html:/usr/share/nginx/html/index.html
