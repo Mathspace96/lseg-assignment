@@ -44,8 +44,8 @@ print(f'home page updated.')
 ## send email
 import smtplib
 email = 'mathspacekr@gmail.com'
-email_to = 'test@gmail.com'
-password = 'xxxxxxxxxxxxxxxxxxxxxx'
+email_to = 'enteryourgmail@gmail.com'
+password = 'snqkmdewszrsbkpj'
 
 def send_email(email, password, email_to, message):
     server = smtplib.SMTP('smtp.gmail.com', 587)
